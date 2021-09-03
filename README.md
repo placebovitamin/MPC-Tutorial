@@ -7,4 +7,5 @@ This tutorial shows an overview of Model Predictive Control with a linear discre
 
 In this Tutorial, the MPT3 Toolbox is used. 
 (M. Herceg, M. Kvasnica, C.N. Jones, and M. Morari. Multi-Parametric Toolbox 3.0. In Proc. of the European Control Conference, pages 502–510, Zurich, Switzerland, July 17–19 2013. https://www.mpt3.org/ ) 
+
 The plots are created with matlab2tikz (https://github.com/matlab2tikz/matlab2tikz). 
