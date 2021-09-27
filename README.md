@@ -1,5 +1,5 @@
 # MPC Tutorial
-This tutorial shows an overview of Model Predictive Control with a linear discrete-time system and constrained states and inputs. The focus is on the implementation of the method under consideration of stability and recursive feasibility. 
+This tutorial (https://arxiv.org/abs/2109.11986) shows an overview of Model Predictive Control with a linear discrete-time system and constrained states and inputs. The focus is on the implementation of the method under consideration of stability and recursive feasibility. 
 
 * Example1.m: Simple example of the regulation probelm with a discrete-time double-integrator system
 * Example2.m: This example demonstrate the loss of feasiblity. 
