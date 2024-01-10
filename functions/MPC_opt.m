@@ -1,8 +1,8 @@
 function U = MPC_opt(x0,A,B,Q,Qf,R,Uad,N)
-% Optimizaiotn 
-%  J = 1/2 * U'*(B_'*Q_*B_ +R_)*U  + (B_'*Q_*A_*x0 - B_'*Q_*A_*x_ref)' * U ; 
+% Optimization 
+%  J = 1/2 * U'*(B_'*Q_*B_ +R_)*U  + (B_'*Q_*A_*x0 )' * U ; 
 
-% Lifted dymaics: [x_1;x_2;...;x_N] = A_ * x0 + B_ * [u_0;u_1;...;u_(N-1)]
+% Lifted dynamics: [x_1;x_2;...;x_N] = A_ * x0 + B_ * [u_0;u_1;...;u_(N-1)]
 [A_,B_] = liftedModel(A,B,N);
 
 % Optimation Weights
